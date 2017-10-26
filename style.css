@@ -1,14 +1,13 @@
 <style>
 p{
-  font-size: 16px;
-  font-family: cursive;
+  font-size: 20px;
 }
 
 .smallerImage{
-  width: 200px;
+  width: 400px;
 }
 .thin-black-border{
-  border-color: black;
+  border-color: yellow;
   border-width: 5px;
   border-style: solid;
 }
@@ -36,5 +35,8 @@ li a {
 }
 body  {
   color: orange;
+  background-color: black;
+  font-style:italic;
+  font-family: cursive;
 }
 </style>
