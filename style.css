@@ -1,19 +1,16 @@
 <style>
 p{
   font-size: 20px;
+  position: relative;
+  left: -100px;
 }
 
-.smallerImage{
-  width: 400px;
-}
 .thin-black-border{
   border-color: yellow;
   border-width: 5px;
   border-style: solid;
 }
-.background-color{
-  background-color: black;
-}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -28,14 +25,14 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 body  {
-  color: orange;
-  background-color: black;
+  color: black;
+  background-color: beige;
   font-style:italic;
   font-family: cursive;
 }
