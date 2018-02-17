@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -24,6 +27,44 @@
 		padding: 14px 16px;
 		text-decoration: none;
 	}
+
+	
+	.card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		max-width: 300px;
+		margin: auto;
+		text-align: center;
+		font-family: arial;
+	}
+
+	.title {
+		color: grey;
+		font-size: 18px;
+	}
+
+	button {
+		border: none;
+		outline: 0;
+		display: inline-block;
+		padding: 8px;
+		color: white;
+		background-color: #000;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+		font-size: 18px;
+	}
+
+	a {
+		text-decoration: none;
+/*		font-size: 22px;
+*/		color: black;
+	}
+
+	button:hover, a:hover {
+		opacity: 0.7;
+	}	
+
 </style>
 <ul>
 	<li><a href="faqs.html">FAQs</a></li>
@@ -34,7 +75,7 @@
 </ul>
 </head>
 <body> <!-- style="background-color: #81D8D0" -->
-	<p>&nbsp;</p>
+	<!-- <p>&nbsp;</p>
 
 	<center><div><a href="https://www.facebook.com/wonghodominic">
 		<img src="https://image.flaticon.com/icons/svg/37/37409.svg" alt="facebook" style="width:42px;height:42px;border:0;">
@@ -52,6 +93,20 @@
 	<p>&nbsp;</p>
 
 	<center><h3><b>Email 1: wonghodominic@gmail.com</b></h3></center>
-	<center><h3><b>Email 2: wonghodominic@berkeley.edu</b></h3></center>
+	<center><h3><b>Email 2: wonghodominic@berkeley.edu</b></h3></center> -->
+	<h2 style="text-align:center">User Profile Card</h2>
+
+	<div class="card">
+		<img src="dp.jpg" alt="John" style="width:100%">
+		<h1>Dominic Wong</h1>
+		<p class="title">Economics major and Coumputer Science minor</p>
+		<p>University of California, Berkeley</p>
+		<div style="margin: 24px 0;">
+			<a href="https://www.instagram.com/dominicwonggg/?hl=en"><i class="fa fa-instagram"></i></a>  
+			<a href="https://www.linkedin.com/in/ho-dominic-wong-795bb6116/"><i class="fa fa-linkedin"></i></a>  
+			<a href="https://www.facebook.com/wonghodominic"><i class="fa fa-facebook"></i></a> 
+		</div>
+		<p><button>Contact</button></p>
+	</div>
 </body>
 </html>
