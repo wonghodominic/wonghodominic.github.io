@@ -36,7 +36,9 @@ body  {
   font-style:italic;
   font-family: cursive;
 }
-#slider {
-  align-items: center;
+
+#html .rs-range-color /*, #css .rs-range-color */, #js .rs-range-color /*, #python .rs-range-color */, #java .rs-range-color {
+    background-color: #ff8d00;
 }
+
 </style>
