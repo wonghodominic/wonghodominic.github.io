@@ -568,7 +568,7 @@
         font-size: 1.5rem;
         color: #ccc;
         width: 80%;
-        margin: 0 auto 1 rem auto;
+        margin: 0 auto 1rem auto;
     }
     
     .team:hover {
@@ -609,6 +609,14 @@
         margin-right: 2rem;
         font-size: 2.3rem;
         color: #dd9a05;
+    }
+    /* for image */
+    
+    .form {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     
     .form h2 {
